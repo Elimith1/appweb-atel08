@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { type Post, today, thisWeek, thisMonth } from "../posts"
-import { DateTime } from "luxon"    
 
 
 const periods = ["Aujourd'hui", "Cette semaine", "Ce mois"];
